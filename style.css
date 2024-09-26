@@ -1,0 +1,102 @@
+body { background-color: grey; }
+
+h1 { text-align: center;
+     background-color:  rgb( 254, 205, 51);
+     color: rgb(14, 85, 165) ; 
+   }
+
+/* ID for Elements group names only */
+#Table1 {  border: px solid;
+           border-spacing: 10px;
+           padding: 10px;
+           margin-left: auto;
+           margin-right: auto; 
+        }
+
+/* ID for All Elements names */
+#Table2 { margin-left: auto;
+          margin-right: auto; 
+        }
+
+td { border: 1px solid;
+     empty-cells: hide;
+     height: 40px;
+     width: 40px; 
+    }
+        
+th { border: 2px solid; }
+
+/* Below css for giving Periods & Groups Numbers. */
+.Numbers { border: none; 
+           font-size: 25px; 
+         }
+
+/* ID for Group text only */
+#Groups { font-size: medium; 
+          border: none;
+          color: white; 
+        }
+
+/* ID for Period text only */
+#Periods { border: none; 
+           color: white;  
+         }
+
+#Lanthanides { border: none;
+               color: white; 
+             } 
+
+#Actinides { border: none; 
+             color: white; 
+           }
+
+/* ID for only H element */
+#H { background-color: rgb(18, 167, 157); }
+
+/* Below All classes css for giving colors to elements */
+.purple { background-color: rgb(149, 91, 165); }
+
+.lightblue { background-color: rgb(2, 158, 247); }
+
+.yellow { background-color: rgb(241, 196, 22) }
+
+.lightorange { background-color: rgb(231, 126, 38); }
+
+.orange { background-color: rgb( 234, 75, 58); }
+
+.blue { background-color: rgb(29, 128, 187); }
+
+.grey { background-color: rgb(128, 141, 143); }
+
+.red { background-color: rgb(217, 26, 91); }
+
+.lightblack { background-color: rgb(80,80,80); }
+
+.lightgreen { background-color: rgb(81, 184, 72); }
+
+/* Below all classes css for giving colors to Elements groups name only */
+#RipeLemon { background-color: rgb(241, 196, 22); }
+
+#Zest { background-color: rgb( 231, 126, 38); }
+
+#EasternBlue { background-color: rgb(29, 128, 187); }
+
+#PickledBluewood { background-color: rgb(80,80,80); }
+
+#OsloGray { background-color: rgb(128, 141, 143); }
+
+#Amaranth { background-color: rgb(217, 26, 91); }
+
+#Shakespeare { background-color: rgb(2, 158, 247); }
+
+#TrendyPink { background-color: rgb( 149, 91, 165); }
+
+#Cinnabar { background-color: rgb(234, 75, 58); }
+
+#Apple { background-color: rgb( 81, 184, 72 ); }
+
+footer { text-align: center; 
+         font-size: large;
+        background-color:  rgb( 254, 205, 51);
+        color: rgb(14, 85, 165) ; 
+       }
